@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+
+}
+.banner {
+  background-image: url("https://images.pexels.com/photos/2409681/pexels-photo-2409681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=800");
+ background-size: cover;
+  padding: 200px 0;
+}
+
+/*img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}*/
+
+.container {
+  width: 450px;
+  margin: 50px auto;
+  font-family: 'Playfair Display', serif;
+}
+
+@media(max-width: 1200px) {
+  .container {
+  width: 700px;
+  }
+}
+
+
+.container h2 {
+  font-size: 28px;
+  color: #85144b;
+}
+
+.container p {
+  font-size: 18px;
+}
+a {
+  color: #85144b;
+  linear-gradient: (0.2 0.5);
+}
+
+ a:hover {
+  color: black;
+ }
+
+.banner h1 {
+ font-size: 40px;
+ margin: 0;
+ color: white;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.6;
+  font-style: italic;
+}
+/*
+.footer {
+  background-color: black;
+}*/
+
+./*footer h3 {
+  margin: 0;
+  height: 150px;
+  color: #85144b;
+  text-align: center;
+  padding-top: 100px;
+}*/
+
+
